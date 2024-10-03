@@ -19,7 +19,7 @@ library(tidyverse)
 library(glue)
 
 # Set this to true to have links turned into footnotes at the end of the document
-PDF_EXPORT <- FALSE
+PDF_EXPORT <- TRUE
 
 # Holds all the links that were inserted for placement at the end
 links <- c()
@@ -91,6 +91,8 @@ More info {#more-info}
 --------------------------------------------------------------------------------
 
 Additional details are available upon request. Please email bpiontek@asu.edu for more information.
+
+See full CV at https://bpiontek-asu.github.io/PAF-514-Lab06-Pt2-CV/cv.html for a more complete version.
 
 
 Disclaimer {#disclaimer}
